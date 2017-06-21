@@ -5,11 +5,15 @@ This repository contains the publishers and subscribers for ROS done in c and py
 
 C FILES
   - c_pub (pubisher in c)
+       <rosrun performance_tests c_pub>
   - c_sub (subscriber in c)
+       <rosrun performance_tests c_sub>
 
 PYTHON FILES
   - python_pub (publisher in python)
+       <rosrun performance_tests python_pub.py>
   - python_sub (subscriber in python)
+       <rosrun performance_tests python_sub.py>
   
 These four nodes are run in the following combination:
   1. c_pub with c_sub and python_sub
